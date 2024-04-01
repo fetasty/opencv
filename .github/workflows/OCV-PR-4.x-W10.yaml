@@ -25,7 +25,7 @@ env:
 
 jobs:
   BuildAndTest:
-    runs-on: window-latest
+    runs-on: windows-latest
     defaults:
       run:
         shell: cmd
@@ -247,7 +247,7 @@ jobs:
         path: ${{ github.workspace }}\build\java_test\testResults\junit-noframes.html
 
   BuildContrib:
-    runs-on: window-latest
+    runs-on: windows-latest
     defaults:
       run:
         shell: cmd
