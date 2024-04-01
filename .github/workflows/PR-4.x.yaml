@@ -8,4 +8,4 @@ on:
 
 jobs:
   Windows10-x64:
-    uses: .github/workflows/OCV-PR-4.x-W10.yaml@4.x
+    uses: ./.github/workflows/OCV-PR-4.x-W10.yaml
